@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Authentification</title>
+</head>
+<body>
+	<form method="post" action="j_security_check">
+		<h2>Authentification :</h2>
+		<table>
+			<tr>
+				<td>
+					<label>Nom :</label>
+				</td>
+				<td>
+					<input type="text" name="j_username"/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Mot de passe :</label>
+				</td>
+				<td>
+					<input type="password" name="j_password"/>
+				</td>
+			</tr>
+			<tr>
+				<td/>
+				<td>
+					<input type="submit" name="submit" value="Connexion"/>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

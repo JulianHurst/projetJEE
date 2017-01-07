@@ -1,0 +1,107 @@
+17:26:59,686 INFO  [org.jboss.modules] JBoss Modules version 1.1.1.GA
+17:26:59,787 INFO  [org.jboss.msc] JBoss MSC version 1.0.2.GA
+17:26:59,815 INFO  [org.jboss.as] JBAS015899: JBoss AS 7.1.1.Final "Brontes" starting
+17:26:59,816 DEBUG [org.jboss.as.config] Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/juju/eclipse/new/tpJeeClean/jboss-as-7.1.1/jboss-as-7.1.1.Final/jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = /home/juju/Downloads/jdk1.7.0_79/jre/lib/endorsed
+	java.ext.dirs = /home/juju/Downloads/jdk1.7.0_79/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /home/juju/Downloads/jdk1.7.0_79/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.7.0_79-b15
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0_79
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 24.79-b02
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = /home/juju/eclipse/new/tpJeeClean/jboss-as-7.1.1/jboss-as-7.1.1.Final
+	jboss.host.name = grimoire
+	jboss.modules.dir = /home/juju/eclipse/new/tpJeeClean/jboss-as-7.1.1/jboss-as-7.1.1.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = grimoire
+	jboss.qualified.host.name = grimoire
+	jboss.server.base.dir = /home/juju/eclipse/new/tpJeeClean/jboss-as-7.1.1/jboss-as-7.1.1.Final/standalone
+	jboss.server.config.dir = /home/juju/eclipse/new/tpJeeClean/jboss-as-7.1.1/jboss-as-7.1.1.Final/standalone/configuration
+	jboss.server.data.dir = /home/juju/eclipse/new/tpJeeClean/jboss-as-7.1.1/jboss-as-7.1.1.Final/standalone/data
+	jboss.server.deploy.dir = /home/juju/eclipse/new/tpJeeClean/jboss-as-7.1.1/jboss-as-7.1.1.Final/standalone/data/content
+	jboss.server.log.dir = /home/juju/eclipse/new/tpJeeClean/jboss-as-7.1.1/jboss-as-7.1.1.Final/standalone/log
+	jboss.server.name = grimoire
+	jboss.server.temp.dir = /home/juju/eclipse/new/tpJeeClean/jboss-as-7.1.1/jboss-as-7.1.1.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/juju/eclipse/new/tpJeeClean/jboss-as-7.1.1/jboss-as-7.1.1.Final/standalone/configuration/logging.properties
+	module.path = /home/juju/eclipse/new/tpJeeClean/jboss-as-7.1.1/jboss-as-7.1.1.Final/modules
+	org.jboss.boot.log.file = /home/juju/eclipse/new/tpJeeClean/jboss-as-7.1.1/jboss-as-7.1.1.Final/standalone/log/boot.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.8.13-1-ARCH
+	path.separator = :
+	program.name = JBossTools: JBoss AS 7.1 (2)
+	sun.arch.data.model = 64
+	sun.boot.class.path = /home/juju/Downloads/jdk1.7.0_79/jre/lib/resources.jar:/home/juju/Downloads/jdk1.7.0_79/jre/lib/rt.jar:/home/juju/Downloads/jdk1.7.0_79/jre/lib/sunrsasign.jar:/home/juju/Downloads/jdk1.7.0_79/jre/lib/jsse.jar:/home/juju/Downloads/jdk1.7.0_79/jre/lib/jce.jar:/home/juju/Downloads/jdk1.7.0_79/jre/lib/charsets.jar:/home/juju/Downloads/jdk1.7.0_79/jre/lib/jfr.jar:/home/juju/Downloads/jdk1.7.0_79/jre/classes
+	sun.boot.library.path = /home/juju/Downloads/jdk1.7.0_79/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp /home/juju/eclipse/new/tpJeeClean/jboss-as-7.1.1/jboss-as-7.1.1.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=/home/juju/eclipse/new/tpJeeClean/jboss-as-7.1.1/jboss-as-7.1.1.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = GB
+	user.dir = /home/juju/eclipse/new/tpJeeClean/jboss-as-7.1.1/jboss-as-7.1.1.Final/bin
+	user.home = /home/juju
+	user.language = en
+	user.name = juju
+	user.timezone = Europe/Paris
+17:26:59,822 DEBUG [org.jboss.as.config] VM Arguments: -Dprogram.name=JBossTools: JBoss AS 7.1 (2) -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/juju/eclipse/new/tpJeeClean/jboss-as-7.1.1/jboss-as-7.1.1.Final/standalone/log/boot.log -Dlogging.configuration=file:/home/juju/eclipse/new/tpJeeClean/jboss-as-7.1.1/jboss-as-7.1.1.Final/standalone/configuration/logging.properties -Djboss.home.dir=/home/juju/eclipse/new/tpJeeClean/jboss-as-7.1.1/jboss-as-7.1.1.Final -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+17:27:00,244 INFO  [org.jboss.as.server] JBAS015888: Creating http management service using socket-binding (management-http)
+17:27:00,244 INFO  [org.xnio] XNIO Version 3.0.3.GA
+17:27:00,251 INFO  [org.xnio.nio] XNIO NIO Implementation Version 3.0.3.GA
+17:27:00,257 INFO  [org.jboss.remoting] JBoss Remoting version 3.2.3.GA
+17:27:00,261 INFO  [org.jboss.as.logging] JBAS011502: Removing bootstrap log handlers
+17:29:59,248 INFO  [org.jboss.as.logging] JBAS011503: Restored bootstrap log handlers
+17:29:59,250 INFO  [org.jboss.as.jpa] JBAS011403: Stopping Persistence Unit Service 'JEE-EJB.jar#MIDS'
+17:29:59,257 INFO  [org.jboss.as.jpa] JBAS011403: Stopping Persistence Unit Service 'JEEWeb.war#MIDS'
+17:29:59,266 INFO  [com.arjuna.ats.jbossatx] ARJUNA032018: Destroying TransactionManagerService
+17:29:59,271 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment postgresql.jar in 36ms
+17:29:59,272 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment JEE-EJB.jar in 36ms
+17:29:59,272 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment JEEWeb.war in 39ms
+17:29:59,272 INFO  [com.arjuna.ats.jbossatx] ARJUNA032014: Stopping transaction recovery manager
+17:29:59,281 INFO  [org.jboss.as] JBAS015950: JBoss AS 7.1.1.Final "Brontes" stopped in 43ms

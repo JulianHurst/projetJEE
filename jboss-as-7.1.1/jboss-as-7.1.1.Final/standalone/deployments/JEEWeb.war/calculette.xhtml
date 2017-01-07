@@ -1,0 +1,39 @@
+ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> 
+ <h:html xmlns="http://www.w3/org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsp/jstl/core" xmlns:ui="http://java.sun.com/jsf/facelets">
+ <h:head>
+ 	<title>Calculette</title>
+ </h:head>
+	<h:body>
+		<h:form>
+			<table>
+				<tr>
+					<td>
+						<h:inputText value="#{calculette.nb1}"/>
+					</td>
+					<td>
+						<h:inputText value="#{calculette.nb2}"/>
+					</td>
+					<td>
+						<h:outputLabel value="#{calculette.res}"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h:commandButton action="#{calculette.additionner}" value="Additionner" />
+					</td>
+					<td>
+						<h:commandButton action="#{calculette.multiplier}" value="Multiplier" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h:commandButton action="#{calculette.soustraire}" value="Soustraire" />
+					</td>
+					<td>
+						<h:commandButton action="#{calculette.diviser}" value="Diviser" />
+					</td>
+				</tr>
+			</table> 
+		</h:form>
+	</h:body>	
+</h:html>
